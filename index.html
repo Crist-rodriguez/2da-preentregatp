@@ -4,21 +4,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINK DE BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- LINK DE CSS -->
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Clase hit</h1>
-        <nav>
-            <ul>
-                <li>inicio</li>
-                <li>productos</li>
-                <li>ofertas</li>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/bibliografia.html">Bibliografia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/musicalidad.html">Musicalidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/filmografia.html">Filmografia</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Extras
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Nosotros</a></li>
+                  <li><a class="dropdown-item" href="#">Contacto</a></li>
+                  <li><a class="dropdown-item" href="#">Cuestionario</a></li>
+                </ul>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
+    <main class="row container-fluid" >
+
+        <section class="col-md-12 ms-1 m" id="hero" >
+            <div class="" id="hero__text"><h1><p class="titulo1">ELVIS PRESLY</p> 
+              <p class="titulo2">"El rey del ROCK"</p></H1>
+            </div>
+        </section>
+
+        <Section class="col-md-6 mb-3">
+            <article class="mt-4">
+              <h2><a class="h3 d-flex justify-content-center mt-2mb-3" href="./pages/galeria.html">GALERIA</a></h2>
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagen/images (7).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagen/images (8).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagen/images (4).jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+              <div class="mt-4">
+                <p class="mt-4 font fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam voluptatem exercitationem illum corporis rerum iste perspiciatis! Consectetur aperiam neque placeat nobis quia quod molestiae accusantium eaque voluptatibus nihil. Nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tempore asperiores provident ducimus maxime. Placeat quaerat id nam architecto mollitia laborum nulla magnam debitis assumenda repellendus, deleniti quos non sunt</p>
+              </div>
+              
+            </article>
+            
+    
+        </Section>
+        <section class="col-md-6">
+            <article class="">
+            <div class="mt-4">
+            <h2 class="h3 d-flex justify-content-center">SU MAYOR EXITO</h2>  
+            <iframe class="d-flex w-100" height="300vh" src="https://www.youtube.com/embed/koI7nn40NmM?autoplay=1?mute=" title="YouTubevideoplayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <p class="mt-4 font fs-6" class="youtube">El Rey del Rock n Roll Elvis Presley se vio fuera de su elemento habitual en la interpretación de esta balada romántica de una canción que hace     que cualquiera se sienta en las nubes.</p>
+            <p class="mt-4 font fs-6" >Evidentemente, la canción es una de las canciones de boda más populares hasta la fecha.</p>
+            <p class="mt-4 font fs-6">La canción
+            "Can't Help Falling In Love" se lanzó como una canción para la película 'Blue Hawaii' de Elvis Presley en 1961. 
+            <p>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Leer mas.
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                <p class="mt-4 font fs-6">La revista Rolling Stone clasificó la canción como la quinta mejor canción de Elvis Presley, quedando detrás de "Suspicious Minds", "If I Can Dream ”, “In The Ghetto” y “Jailhouse Rock”. Rolling Stone también incluyó esta canción clásica en su lista "500 Greatest Songs of All Time" en el #403. </p>
+            <p class="mt-4 font fs-6">Según el mismo sitio web, le tomó a Elvis 29 tomas para culminar esta obra maestra que escuchamos hoy. La canción alcanzó el puesto #1 en las listas de canciones de muchos países de todo el mundo, incluidos Estados Unidos, el Reino Unido, Canadá, Australia, Suecia, Nueva Zelanda, Francia y España.
+            La canción habla sobre los sentimientos del cantante hacia una chica de la que se enamora incontrolablemente.
+            "Can't Help Falling In Love" es también la última canción que Elvis tocó en vivo en 1977 durante un concierto en Indianápolis.</p>
+              </div>
+            </div>
+
+              
+              </p>
+            </div>
+            </article>
+        </section>
+    </main>
+    
+        <footer class="bg-success p-2 text-dark bg-opacity-25 container-fluid">
+            <section class="mt-4 mb-4 fa-3x" >
+                <div class="d-flex justify-content-evenly mt-3 mb-3">
+                    <i class="bi-facebook fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s;" ></i>
+                    <i class="bi-twitter fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s;"></i>
+                    <i class="bi-whatsapp fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s;"></i>
+                    <i class="bi-envelope fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s;" ></i>
+    
+                </div>
+                <div class="d-flex justify-content-center mt-3 mb-3">
+                    <p>Nos interesa tu opinion. ¿NOS AYUDAS A MEJORAR?</p>
+                         <a class="cuestionario" href="./basededatos/cuestionario.html" target="_blank"> AQUI</a>
+                
+                </div>
+                <div class="d-flex justify-content-evenly mt-3 mb-3">
+                    
+                    <a class="hiper" href="#">DERECHOS DE AUTOR</a>
+                    <a class="hiper" href="#">POLITICA DE PRIVACIDAD</a>
+                    <a class="hiper" href="#">CONDICIONES DE USO</a>
+               
+                </div>
+                <div class="d-flex justify-content-center mt-5 mb-3">
+                  <p>@by. Cristian Rodriguez</p>
+                </div>
+                
+                
+            </section>
+    
+        </footer>
+
  
-    
-    
+    <!--LINK DE JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

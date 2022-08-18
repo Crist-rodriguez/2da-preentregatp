@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Dancing+Script:wght@500&family=Poppins:ital,wght@1,200;1,300;1,400;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero{
+    height: 100vh;
+    background-image: url(../imagen/portada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#hero::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+#hero__text {
+    color: rgba(235, 238, 241, 0.959);
+    font-size: 3rem;
+}
+.titulo1{
+    display: flex;
+    justify-content: center;
+}
+
+.galeriahtml{
+    padding-bottom: 3em;
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: .8em;
+    grid-template-areas: 
+    "images(1) images(1) images(2)"
+    "images(1) images(1) images(3)"
+    "images(6) images(4) images(5)"       
+    "images(6) images(7) images(7)"
+    "images(8) images(9) images(10)"
+
+}
+
+.galeria_picture1 {
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+.galeria_picture6 {
+    grid-row: 3/5;
+}
+.galeria_picture7{
+    grid-column: 2/4;
+}
+.galeria_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#tiempo{
+    height: 570vh;
+}
+.lineadetiempo{
+    position: relative;
+    padding: 40px 0;
+    margin: 50px auto;
+    width: 1000px;
+}
+.lineadetiempo:before{
+    content:"";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 533vh;
+    background: green
+}
+
+.lineadetiempo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lineadetiempo ul li{
+    line-height: normal;
+    position: relative;
+    width: 50%;
+    padding: 15px 30px;
+
+}
+.lineadetiempo ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.lineadetiempo ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;   /*---SIRVE PARA MARCAR EL TEXT---*/
+}
+
+.contenido{
+    padding-bottom: 20px ;
+}
+.lineadetiempo ul li:nth-child(Odd):before{
+    content: "";
+    position: absolute;
+    top:24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(102, 5, 102);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(102, 5, 102);
+}
+.lineadetiempo ul li:nth-child(even):before{
+    content: "";
+    position: absolute;
+    top:24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(102, 5, 102);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(102, 5, 102);
+}
