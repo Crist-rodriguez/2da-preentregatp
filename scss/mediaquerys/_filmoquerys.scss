@@ -1,0 +1,49 @@
+@media (min-width: 769px) and (max-width: 1280px) {
+    .lineadetiempo ul li:nth-child(even) {
+      float: right;
+      text-align: left;
+      clear: both; /*---SIRVE PARA MARCAR EL TEXT---*/
+    }
+    .lineadetiempo ul li:nth-child(odd):before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      right: -6px;
+      width: 10px;
+      height: 10px;
+      background-color: rgb(102, 5, 102);
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgb(102, 5, 102);
+    }
+    .lineadetiempo {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    .lineadetiempo ul li:nth-child(odd):before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      left: -4px;
+      width: 10px;
+      height: 10px;
+      background-color: rgb(102, 5, 102);
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgb(102, 5, 102);
+    }
+    .lineadetiempo:before {
+      content: "";
+      position: absolute;
+      /* left: 50%; */
+      width: 2px;
+      height: 100%;
+      background: green;
+    }
+    .lineadetiempo ul li {
+      line-height: normal;
+      position: relative;
+      width: 80%;
+      padding: 10px 10px;
+    }
+  }
