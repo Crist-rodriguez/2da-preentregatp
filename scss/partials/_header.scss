@@ -1,4 +1,6 @@
+@import'../base/variables';
+
 .nav-link:hover{
-    background-color: brown;
+    background-color: $colornav; 
     
 }

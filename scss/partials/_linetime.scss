@@ -11,13 +11,24 @@
             padding: 30px 0;
             margin: 50px auto;
 
+            @media (min-width: 769px) and (max-width: 1280px){
+                display: flex;
+                justify-content: center;
+            }
+
             &:before{
                 content:"";
                 position: absolute;
-                /*left: 50%;*/
+                left: 50%; 
                 width: 2px;
                 height: 100%;
-                background: green
+                background: $colorline;
+
+                @media (min-width:320px) and (max-width: 768px){
+
+                left: 0.1%;
+                }
+
             }
             ul {
                 margin: 0;
@@ -30,6 +41,14 @@
                     width: 50%;
                     padding: 10px 10px;
 
+                    @media (min-width:320px) and (max-width: 768px){
+                        width: 80%;
+                        padding: 10px 10px;
+  
+                    }
+
+
+
                     &:nth-child(odd){
                         float: left;
                         text-align: right;
@@ -39,18 +58,22 @@
                             content: "";
                             position: absolute;
                             top:24px;
-                            /*right: -6px;*/
-                            width: 10px;
-                            height: 10px;
-                            background-color: rgb(102, 5, 102);
+                            right: -6px;  
+                            @include sizes(10px, 10px);
+                            background-color: $colorline;
                             border-radius: 50%;
-                            box-shadow: 0 0 0 3px rgb(102, 5, 102);
+                            box-shadow: 0 0 0 3px $colorline;
+
+                            @media (min-width:320px) and (max-width: 768px) {
+                                left: -4px;
+
+                            }
                         }
-                    }
+                    } 
 
                     &:nth-child(even){
-                        float: left;
-                        text-align: right;
+                        float: right;     
+                        text-align: left;      
                         clear: both;
 
                         &:before{
@@ -58,11 +81,27 @@
                             position: absolute;
                             top:24px;
                             left: -4px;
-                            width: 10px;
-                            height: 10px;
-                            background-color: rgb(102, 5, 102);
+                            @include sizes(10px, 10px);
+                            background-color: $colorline;
                             border-radius: 50%;
-                            box-shadow: 0 0 0 3px rgb(102, 5, 102);
+                            box-shadow: 0 0 0 3px $colorline;
+
+                            @media (min-width: 769px) and (max-width: 1280px){
+                                right: -6px;
+                            }
+                        }
+
+                        @media (min-width: 769px) and (max-width: 1280px) {
+                            float: right;
+                            text-align: left;
+                            clear: both;
+                        }
+
+                        @media (min-width:320px) and (max-width: 768px) {
+                            float: none; 
+                            text-align: left;
+                            clear: both;
+
                         }
                 
                     }
@@ -79,6 +118,5 @@
 
     }
 
+ 
 }
-
-

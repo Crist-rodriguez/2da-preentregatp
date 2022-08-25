@@ -1,13 +1,14 @@
+@import'../base/variables';
+@import'../base/mixin';
+
 .hero1{
     height: 100vh;
-    background-image: url(../imagen/portada.jpg);
+    background: url(../imagen/portada.jpg);
     background-size: cover;
     background-attachment: fixed;
    
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
+    @include flexbox(center, center);
+    
     &::after{
         content: "";
         position: absolute;
@@ -18,19 +19,18 @@
        }
 
     .hero2 {
-        color: rgba(235, 238, 241, 0.959);
+        color: $colorhero;
         font-size: 3rem;
 
     }
 
     .titulo1{
-        display: flex;
-        justify-content: center;
-        background-color: black;
+        @include flexbox (center, none);
+        background-color: $colortitle;
     }
 
     .titulo2{
-        background-color: black;
+        background-color: $colortitle;
     }
 
 }
