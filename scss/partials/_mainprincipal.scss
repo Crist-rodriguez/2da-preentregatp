@@ -1,7 +1,4 @@
-$tipo-principal: Poppins, sans-serif;
-
-
-#hero{
+.hero1{
     height: 100vh;
     background-image: url(../imagen/portada.jpg);
     background-size: cover;
@@ -11,44 +8,29 @@ $tipo-principal: Poppins, sans-serif;
     justify-content: center;
     align-items: center;
 
-    &#hero::after{
+    &::after{
         content: "";
         position: absolute;
         bottom: 0;
         top: 0;
         left: 0;
         right: 0;
-    &#hero__text {
+       }
+
+    .hero2 {
         color: rgba(235, 238, 241, 0.959);
         font-size: 3rem;
-    }
-    }
-   
-}
 
-.titulo1{
-    display: flex;
-    justify-content: center;
-    background-color: black;
+    }
 
-    &.titulo2{
+    .titulo1{
+        display: flex;
+        justify-content: center;
         background-color: black;
     }
-}
 
-.iconofooter .bi-iconos{
-    position: relative;
-
-    .iconofooter .bi-iconos:hover{
-        transform: scale(2.50);
+    .titulo2{
+        background-color: black;
     }
 
-}
-
-.nav-link:hover{
-    background-color: brown;
-
-    &.dropdown-item:hover{
-        background-color: red;
-    }
 }
