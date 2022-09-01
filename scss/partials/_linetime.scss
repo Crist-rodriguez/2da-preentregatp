@@ -1,8 +1,12 @@
+@import'../base/variables.scss';
+@import'../base/mixin';
+
 .bodyfil{
     height: 200%;
     .filmonav{
         width: 95%;
     }
+
 
     #tiempo{
         height: 150%;
@@ -20,8 +24,7 @@
                 content:"";
                 position: absolute;
                 left: 50%; 
-                width: 2px;
-                height: 100%;
+                @include sizes(2px, 100%);
                 background: $colorline;
 
                 @media (min-width:320px) and (max-width: 768px){
@@ -60,9 +63,9 @@
                             top:24px;
                             right: -6px;  
                             @include sizes(10px, 10px);
-                            background-color: $colorline;
+                            background-color: $colortime;
                             border-radius: 50%;
-                            box-shadow: 0 0 0 3px $colorline;
+                            box-shadow: 0 0 0 3px $colortime;
 
                             @media (min-width:320px) and (max-width: 768px) {
                                 left: -4px;
@@ -82,9 +85,9 @@
                             top:24px;
                             left: -4px;
                             @include sizes(10px, 10px);
-                            background-color: $colorline;
+                            background-color: $colortime;
                             border-radius: 50%;
-                            box-shadow: 0 0 0 3px $colorline;
+                            box-shadow: 0 0 0 3px $colortime;
 
                             @media (min-width: 769px) and (max-width: 1280px){
                                 right: -6px;

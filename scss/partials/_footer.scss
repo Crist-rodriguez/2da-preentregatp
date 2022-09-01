@@ -1,7 +1,16 @@
-.iconofooter .bi-iconos{
-    position: relative;
-    &:hover{
-        transform: scale(2.50);
+@import'../base/mixin';
+@import'../base/variables';
+
+.iconofooter {
+
+    text-decoration: none;
+
+    .bi-iconos{
+        position: relative;
+
+        &:hover{
+        transform: scale(3);
+        }
     }
 
 }

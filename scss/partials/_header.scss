@@ -1,6 +1,16 @@
+@import'../base/mixin';
 @import'../base/variables';
 
-.nav-link:hover{
-    background-color: $colornav; 
-    
+.barranavegacion{
+
+    width: 100%; 
+    height: 100%;
+
+    .nav-link:hover{
+        background-color: $colornav; 
+        
+    }
+
 }
+
+

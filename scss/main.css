@@ -163,7 +163,8 @@
   grid-auto-rows: 210px;
   grid-gap: 10px;
   padding: 20px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .galeriaalbum .galeria_img {
   width: 100%;
@@ -340,6 +341,4 @@
 }
 .fondomain .reproductortarjetas .contenedor-productos .player .hide {
   display: none;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */

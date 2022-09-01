@@ -4,7 +4,8 @@
     align-items: $align-items;
 }
 
-@mixin sizes($width, $heigth){
+@mixin sizes($width, $height){
     width: $width;
-    height: $heigth;
+    height: $height;
 }
+
