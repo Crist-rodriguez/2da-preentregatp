@@ -99,7 +99,7 @@
 }
 .bodyfil #tiempo .lineadetiempo ul li:nth-child(odd) {
   float: left;
-  text-align: right;
+  text-align: left;
   clear: both;
 }
 .bodyfil #tiempo .lineadetiempo ul li:nth-child(odd):before {

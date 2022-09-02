@@ -14,6 +14,7 @@
             position: relative;
             padding: 30px 0;
             margin: 50px auto;
+            
 
             @media (min-width: 769px) and (max-width: 1280px){
                 display: flex;
@@ -54,7 +55,7 @@
 
                     &:nth-child(odd){
                         float: left;
-                        text-align: right;
+                        text-align: left;
                         clear: both;
 
                         &:before{
