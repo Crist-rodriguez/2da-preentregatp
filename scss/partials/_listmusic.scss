@@ -6,12 +6,12 @@
 
 
 :root {
-  --background: #dfb9b9;
+  --background: #e2ebf0;
   --gray: #2e093d;
 }
 
 .fondomain{
-background-color: #f8f3c6;
+background-color: #ffffff;
 
   .reproductortarjetas{
     padding: 20px;
@@ -19,8 +19,8 @@ background-color: #f8f3c6;
     .titulolist{
       display: flex;
       justify-content: center;
-      margin-top: 5%;
-      margin-bottom: 5%;
+      margin-top: 2%;
+      margin-bottom: 2%;
       margin-left: 5%;
     }
   
@@ -34,7 +34,7 @@ background-color: #f8f3c6;
     }
 
     .contenedor-productos{
-      background-color: rgb(235, 212, 212);
+      background-color: rgb(156, 152, 152);
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -55,7 +55,7 @@ background-color: #f8f3c6;
         align-items: center;
         justify-content: center;
         border-radius: 12px;
-        box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+        box-shadow: 9px 9px 16px rgba(140, 167, 207, 0.6),
           -9px -9px 16px rgba(248, 242, 242, 0.5);
 
           .player__controles {
@@ -94,15 +94,15 @@ background-color: #f8f3c6;
             }
 
             .blue {
-              background-color: #060f06;
-              color: #f6f3f7;
+              background-color: #080808;
+              color: #f7f2f8;
               ;
             }
 
             .player__title {
               font-weight: 600;
               font-size: 0.8em;
-              color: #a1a1a1;
+              color: #0a0a0a;
               text-transform: uppercase;
               letter-spacing: 2px;
               margin: 0px;
@@ -123,6 +123,7 @@ background-color: #f8f3c6;
               box-shadow: 2px 2px 7px rgb(163, 177, 198), -2px -2px 7px rgb(163, 177, 198),
                 -8px -8px 50px rgba(255, 255, 255, 0.8), 3px 3px 25px rgba(0, 0, 0, 0.6);
             }
+            
           }
           .player__artista {
             font-size: 1.2em;
@@ -151,7 +152,7 @@ background-color: #f8f3c6;
             margin-top: 40px;
 
             &::-webkit-slider-runnable-track {
-              background-color: hsl(268, 43%, 65%);
+              background-color: #c39df8;
               height: 6px;
               border-radius: 3px;
             }

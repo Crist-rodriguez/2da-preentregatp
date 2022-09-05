@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Musica" content="en esta seccion se podra escuchar de forma ordenada las canciones de elvis separadas por decadas">
+    <meta name="description" content="en esta seccion se podra escuchar de forma ordenada las canciones de elvis separadas por decadas">
     <!--LINK DE BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -17,7 +17,7 @@
   <header class=".barranavegacion container-fluid">
     <nav class="navbar navbar-expand-lg bg-light navbar-dark" >
         <div class="container-fluid text-bg-secondary p-3">
-          <a class="navbar-brand ms-5" href="#"><img src="../imagen/logomusic.png" alt="logoprincipal" class="w-100"></a>
+          <a class="navbar-brand ms-3" href="../index.html"><img src="../imagen/logomusic.png" alt="logoprincipal" class="w-100"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,7 +30,7 @@
                 <a class="nav-link" href="./bibliografia.html">Bibliografia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active bg-dark " href="./musicalidad.html">Musicalidad</a>
+                <a class="nav-link active bg-dark " href="./musicalidad.html">Clásicos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./filmografia.html">Filmografía</a>
@@ -63,42 +63,44 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small">
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
                         <div class="player__album">
                           <img src="../imagen/patronmusic (1).png" alt="Album Cover" class="player__img" loading="lazy" />
                         </div>
+                       
                    
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">That's When Your Heartaches Begin</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level" />
+                       
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
                         </div>
                    
-                        <audio class="player__audio" controls id="audio">
-                          <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/Leo%20-%20Trying.mp3" type="audio/mpeg" />
+                        <audio class="player__audio" controls="audio">
+                          <source src="https://open.spotify.com/track/44AyOl4qVkzS48vBsbNXaC?si=89fcf443caeb4bc7" type="audio/mpeg"/>
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium" id="forward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-forward"></i>
                           </div>
                         </div>
@@ -112,11 +114,11 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small">
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small">
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
@@ -127,7 +129,7 @@
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">I Got A Woman</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level"  />
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
@@ -138,16 +140,16 @@
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium" id="forward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-forward"></i>
                           </div>
                         </div>
@@ -161,11 +163,11 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
@@ -176,7 +178,7 @@
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">Wear My Ring Around Your Neck</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level"  />
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
@@ -187,16 +189,16 @@
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium" id="forward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-forward"></i>
                           </div>
                         </div>
@@ -208,11 +210,11 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small" ">
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
@@ -223,7 +225,7 @@
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">Jailhouse Rock</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level"  />
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
@@ -234,16 +236,16 @@
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium" id="forward">
+                          <div class="player__btn player__btn--medium" ">
                             <i class="fas fa-forward"></i>
                           </div>
                         </div>
@@ -257,11 +259,11 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
@@ -272,7 +274,7 @@
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">I Want You</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level"  />
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
@@ -283,16 +285,16 @@
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium" id="forward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-forward"></i>
                           </div>
                         </div>
@@ -304,11 +306,11 @@
                   <div class="contenedor-tarjetas">
                     <div class="player">
                       <div class="player__controles">
-                        <div class="player__btn player__btn--small" id="previous">
+                        <div class="player__btn player__btn--small" >
                           <i class="fas fa-arrow-left"></i>
                         </div>
                         <h5 class="player__title">Reproduciendo</h5>
-                        <div class="player__btn player__btn--small" id="icon-menu">
+                        <div class="player__btn player__btn--small" >
                           <i class="fas fa-bars"></i>
                         </div>
                       </div>
@@ -319,7 +321,7 @@
                       <h2 class="player__artista">Elvis Presley</h2>
                       <h3 class="player__tema">I'll Never Let You Go</h3>
                  
-                      <input type="range" value="20" min="0" class="player__level" id="range" />
+                      <input type="range" value="20" min="0" class="player__level"  />
                       <div class="audio-duration">
                         <div class="start">00:01</div>
                         <div class="end">04:30</div>
@@ -330,16 +332,16 @@
                       </audio>
                  
                       <div class="player__controles">
-                        <div class="player__btn player__btn--medium" id="backward">
+                        <div class="player__btn player__btn--medium" >
                           <i class="fas fa-backward"></i>
                         </div>
                  
-                        <div class="player__btn player__btn--medium blue play" id="play">
+                        <div class="player__btn player__btn--medium blue play" >
                           <i class="fas fa-play play-btn"></i>
                           <i class="fas fa-pause pause-btn hide"></i>
                         </div>
                  
-                        <div class="player__btn player__btn--medium" id="forward">
+                        <div class="player__btn player__btn--medium" >
                           <i class="fas fa-forward"></i>
                         </div>
                       </div>
@@ -359,11 +361,11 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
@@ -374,7 +376,7 @@
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">Always On My Mind</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level"  />
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
@@ -385,16 +387,16 @@
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium" id="forward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-forward"></i>
                           </div>
                         </div>
@@ -408,11 +410,11 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
@@ -423,7 +425,7 @@
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">I Got A Felling In My Body</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level"  />
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
@@ -434,16 +436,16 @@
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium" id="forward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-forward"></i>
                           </div>
                         </div>
@@ -457,11 +459,11 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
@@ -472,7 +474,7 @@
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">My Little Friend</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level"  />
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
@@ -483,16 +485,16 @@
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium" id="forward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-forward"></i>
                           </div>
                         </div>
@@ -504,11 +506,11 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
@@ -519,7 +521,7 @@
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">Mr. Songman</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level"  />
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
@@ -530,16 +532,16 @@
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium" id="forward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-forward"></i>
                           </div>
                         </div>
@@ -553,11 +555,11 @@
                     <div class="contenedor-tarjetas">
                       <div class="player">
                         <div class="player__controles">
-                          <div class="player__btn player__btn--small" id="previous">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-arrow-left"></i>
                           </div>
                           <h5 class="player__title">Reproduciendo</h5>
-                          <div class="player__btn player__btn--small" id="icon-menu">
+                          <div class="player__btn player__btn--small" >
                             <i class="fas fa-bars"></i>
                           </div>
                         </div>
@@ -568,7 +570,7 @@
                         <h2 class="player__artista">Elvis Presley</h2>
                         <h3 class="player__tema">Life</h3>
                    
-                        <input type="range" value="20" min="0" class="player__level" id="range" />
+                        <input type="range" value="20" min="0" class="player__level"  />
                         <div class="audio-duration">
                           <div class="start">00:01</div>
                           <div class="end">04:30</div>
@@ -579,11 +581,11 @@
                         </audio>
                    
                         <div class="player__controles">
-                          <div class="player__btn player__btn--medium" id="backward">
+                          <div class="player__btn player__btn--medium" >
                             <i class="fas fa-backward"></i>
                           </div>
                    
-                          <div class="player__btn player__btn--medium blue play" id="play">
+                          <div class="player__btn player__btn--medium blue play" >
                             <i class="fas fa-play play-btn"></i>
                             <i class="fas fa-pause pause-btn hide"></i>
                           </div>
@@ -600,11 +602,11 @@
                   <div class="contenedor-tarjetas">
                     <div class="player">
                       <div class="player__controles">
-                        <div class="player__btn player__btn--small" id="previous">
+                        <div class="player__btn player__btn--small" >
                           <i class="fas fa-arrow-left"></i>
                         </div>
                         <h5 class="player__title">Reproduciendo</h5>
-                        <div class="player__btn player__btn--small" id="icon-menu">
+                        <div class="player__btn player__btn--small" >
                           <i class="fas fa-bars"></i>
                         </div>
                       </div>
@@ -626,16 +628,16 @@
                       </audio>
                  
                       <div class="player__controles">
-                        <div class="player__btn player__btn--medium" id="backward">
+                        <div class="player__btn player__btn--medium" >
                           <i class="fas fa-backward"></i>
                         </div>
                  
-                        <div class="player__btn player__btn--medium blue play" id="play">
+                        <div class="player__btn player__btn--medium blue play" >
                           <i class="fas fa-play play-btn"></i>
                           <i class="fas fa-pause pause-btn hide"></i>
                         </div>
                  
-                        <div class="player__btn player__btn--medium" id="forward">
+                        <div class="player__btn player__btn--medium" >
                           <i class="fas fa-forward"></i>
                         </div>
                       </div>
@@ -650,14 +652,14 @@
     <footer class="bg-success p-2 text-dark bg-opacity-25 container-fluid" class="finish">
       <section class="mt-4 mb-4">  
         <div class="iconofooter d-flex justify-content-evenly mt-3 mb-3" >
-          <a class="bi-iconos bi-facebook" href="https://www.facebook.com/"></a>
-          <a class="bi-iconos bi-twitter" href="https://twitter.com/home?lang=es"></a>
-          <a class="bi-iconos bi-whatsapp" href="https://web.whatsapp.com/"></a>
-          <a class="bi-iconos bi-envelope" href="https://mail.google.com/"></a>
+          <a class="bi-iconos bi-facebook" class="facebook" href="https://www.facebook.com/"></a>
+          <a class="bi-iconos bi-twitter" class="twitter" href="https://twitter.com/home?lang=es"></a>
+          <a class="bi-iconos bi-whatsapp" class="whatsapp" href="https://web.whatsapp.com/"></a>
+          <a class="bi-iconos bi-envelope" class="email" href="https://mail.google.com/"></a>
           </div>
           <div class="d-flex justify-content-center mt-3 mb-3" class="formulariofinish">
-              <p>Nos interesa tu opinion. ¿NOS AYUDAS A MEJORAR?</p>
-                   <a class="cuestionario" href="./Formulario.html" target="_blank"> AQUI</a>
+            <p>¿NOS AYUDARIAS A MEJORAR?</p>
+            <a class="cuestionario" href="./pages/Formulario.html" target="_blank" class="bi-iconos"  class="link">¡Seguinos para darnos tu opinion!</a>
           
           </div>
           <div class="d-flex justify-content-evenly mt-3 mb-3" class="infofinish">
@@ -667,8 +669,8 @@
               <a class="hiper" href="#">CONDICIONES DE USO</a>
          
           </div>
-          <div class="d-flex justify-content-center mt-5 mb-3" class="autorfinish">
-            <p>@by. Cristian Rodriguez</p>
+          <div class="d-flex justify-content-center bg-info">
+            <p class="mt-3 fs-6 fw-semibold">@by. Rodriguez Cristian</p>
           </div>
           
           

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
 .mainprincipal {
-  background-color: #f8f3c6;
+  background-color: #f8f6de;
 }
 .mainprincipal .hero1 {
   height: 100vh;
@@ -49,9 +49,6 @@
 
 .bodyfil {
   height: 200%;
-}
-.bodyfil .filmonav {
-  width: 95%;
 }
 .bodyfil #tiempo {
   height: 150%;
@@ -191,12 +188,12 @@
 }
 
 :root {
-  --background: #dfb9b9;
+  --background: #e2ebf0;
   --gray: #2e093d;
 }
 
 .fondomain {
-  background-color: #f8f3c6;
+  background-color: #ffffff;
 }
 .fondomain .reproductortarjetas {
   padding: 20px;
@@ -204,8 +201,8 @@
 .fondomain .reproductortarjetas .titulolist {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   margin-left: 5%;
 }
 .fondomain .reproductortarjetas .tituloclasicos {
@@ -216,7 +213,7 @@
   margin-left: 5%;
 }
 .fondomain .reproductortarjetas .contenedor-productos {
-  background-color: rgb(235, 212, 212);
+  background-color: rgb(156, 152, 152);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -234,7 +231,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(248, 242, 242, 0.5);
+  box-shadow: 9px 9px 16px rgba(140, 167, 207, 0.6), -9px -9px 16px rgba(248, 242, 242, 0.5);
 }
 .fondomain .reproductortarjetas .contenedor-productos .player .player__controles {
   display: flex;
@@ -265,13 +262,13 @@
   min-width: 70px;
 }
 .fondomain .reproductortarjetas .contenedor-productos .player .player__controles .blue {
-  background-color: #060f06;
-  color: #f6f3f7;
+  background-color: #080808;
+  color: #f7f2f8;
 }
 .fondomain .reproductortarjetas .contenedor-productos .player .player__controles .player__title {
   font-weight: 600;
   font-size: 0.8em;
-  color: #a1a1a1;
+  color: #0a0a0a;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0px;
@@ -311,7 +308,7 @@
   margin-top: 40px;
 }
 .fondomain .reproductortarjetas .contenedor-productos .player .player__level::-webkit-slider-runnable-track {
-  background-color: hsl(268deg, 43%, 65%);
+  background-color: #c39df8;
   height: 6px;
   border-radius: 3px;
 }
