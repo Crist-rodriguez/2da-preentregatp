@@ -1,0 +1,32 @@
+@import'../base/mixin.scss';
+@import'../base/variables.scss';
+
+.fondoformu{
+    background-image: url(/imagen/bodyformu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.cajapadre1{
+    background-color: rgbas(120, 119, 123, 0.3);
+    border-radius: 5%;
+    font-weight: bold;
+    box-shadow: inset 1px 1px 22px 4px;
+
+    @media (min-width:320px) and (max-width: 768px){
+    
+        margin-left: 11px;    
+
+       }
+
+    .btn-primary{
+        background-color: blueviolet;
+    }
+
+    .btn-outline-primary{
+        background-color: blueviolet;
+    }
+    
+
+}

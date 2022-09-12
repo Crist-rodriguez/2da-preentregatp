@@ -1,6 +1,7 @@
 @import'../base/mixin';
 @import'../base/variables';
 
+
 .galeriaalbum{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

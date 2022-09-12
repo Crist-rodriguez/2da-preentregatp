@@ -1,6 +1,14 @@
 @import'../base/mixin';
 @import'../base/variables';
 
+:root{
+    --colordatos:#e7ced7;
+    --fuente:'Ubuntu', sans-serif;
+}
+
+footer{
+    background-color: var(--colordatos); 
+
 .iconofooter {
 
     text-decoration: none;
@@ -13,4 +21,5 @@
         }
     }
 
+    }
 }

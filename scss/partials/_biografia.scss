@@ -1,0 +1,28 @@
+@import'../base/mixin.scss';
+@import'../base/variables.scss';
+
+:root{
+    --fuente:'Ubuntu', sans-serif;
+}
+
+body{
+    font-family: var(--fuente);
+
+    .imgbio{
+        height: 60vh;
+        width: 100%;
+    }
+            
+    .titulovida{
+
+        font-size: 4cm;
+        
+    }
+
+    .titulocarrera{
+
+        font-size: 4cm;
+        
+    }
+
+}

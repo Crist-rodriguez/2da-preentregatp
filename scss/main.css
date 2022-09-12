@@ -227,7 +227,8 @@ body .titulocarrera {
   grid-auto-rows: 210px;
   grid-gap: 10px;
   padding: 20px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .galeriaalbum .galeria_img {
   width: 100%;
@@ -430,6 +431,4 @@ body .titulocarrera {
 }
 .cajapadre1 .btn-outline-primary {
   background-color: blueviolet;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */

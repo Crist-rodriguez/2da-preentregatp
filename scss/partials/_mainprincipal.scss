@@ -1,10 +1,27 @@
 @import'../base/variables';
 @import'../base/mixin';
 
+:root{
+    --colorbody:#e4ded3;
+    --fuente:'Ubuntu', sans-serif;
+}
+
+body{
+    font-family: var(--fuente);
+    background-color: var(--colorbody);
+
+    a{
+        text-decoration: underline;
+        color: var(--bs-link-color);
+    }
+
+
+
+
 .mainprincipal{
     background-color: $colormain;
 
-.hero1{
+    .hero1{
     height: 100vh;
     background: url(../imagen/portada.jpg);
     background-size: cover;
@@ -21,14 +38,33 @@
         left: 0;
         right: 0;
        }
+  
+    }
 
-   
-   }
+    .principalimagen{
+        height: 75vh;
+        width: 100%;
 
-    .titulo1{
-    @include flexbox (center, center);
+        @media (min-width:320px) and (max-width: 768px){
+    
+            height: 50vh;
+            width: 100%;    
+    
+           }
+    }
+
+    .tittlegalery{
+        font-size: 1.2cm;
+        text-decoration: none;
+    }
+
+    .tittlevideo{
+        font-size: 1.2cm;
+    }
+
     
 }
 
 }
+
 

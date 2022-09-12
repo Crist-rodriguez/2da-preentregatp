@@ -9,42 +9,46 @@
     <!--LINK DE BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--LINK DE FONTS GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=PT+Serif&family=Ubuntu&display=swap" rel="stylesheet">
     <!-- LINK DE CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="wow/animate.css">
     <link rel="stylesheet" href="./css/style.css">
+    
     <!--TITULO-->
     <title>Elvis Presley</title>
 </head>
 <body>
-    <header class="barranavegacion container-fluid">
-      <nav class="navbar navbar-expand-lg bg-light navbar-dark">
-        <div class="container-fluid text-bg-secondary p-3">
-          <a class="navbar-brand ms-3" href="./index.html"><h1 class="fs-4 text mt-2"><img src="./imagen/logomusic.png" alt="logoprincipal" href="./index.html" class="w-35">Elvis Presley</h1></a>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid text-bg-secondary">
+          <a class="navbar-brand" href="./index.html"><h1 class="fs-1 text mt-2 ms-3 me-5">Elvis Presley</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="d-flex justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse navbar-dark" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active bg-dark" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active bg-dark" aria-current="page" href="./index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/bibliografia.html">Bibliografia</a>
+                <a class="nav-link" href="./pages/biografia.html">Biografia</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/musicalidad.html">Clásicos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/filmografia.html">Filmografía</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Extras
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./pages/filmografia.html">Filmografia</a></li>
                   <li><a class="dropdown-item" href="./pages/Formulario.html">Formulario</a></li>
-                  <li><a class="dropdown-item" href="#">Nosotros</a></li>
-                  <li><a class="dropdown-item" href="#">Contacto</a></li>
                 </ul>
               </li>
             </ul>
@@ -54,9 +58,9 @@
     </header>
     <main class="mainprincipal row container-fluid" >
 
-        <section class="col-md-12 ms-1 m" class="hero1" id="hero" >
+        <section class="col-md-12" class="hero1" id="hero" >
             <div class="hero2 wow bounceInDown animate__delay-2s" id="__text">
-              <img class="ms-2 principalimagen w-100" src="./imagen/portada.jpg" alt="reproductormusica">
+              <img class="principalimagen"  src="./imagen/portada.jpg" alt="reproductormusica">
             </div> 
         </section>
        
@@ -64,7 +68,7 @@
         <Section class="col-md-6 mb-3">
             <article class="mt-4">
               <div>
-              <h2><a class="link h3 d-flex justify-content-center mt-2mb-3" href="./pages/galeria.html">GALERIA</a></h2>
+              <h2><a class="link tittlegalery h3 d-flex justify-content-center mt-2" href="./pages/galeria.html">GALERIA</a></h2>
               </div>
               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -101,26 +105,27 @@
     
         </Section>
         <section class="col-md-6">
-            <article class="">
-            <div class="mt-4">
-            <h2 class="h3 d-flex justify-content-center">SU MAYOR ÉXITO</h2>  
+            <article>
+            <div>
+            <h2 class="tittlevideo h3 d-flex justify-content-center mt-4">SU MAYOR ÉXITO</h2>  
             <iframe class="d-flex w-100" width="560" height=337vh src="https://www.youtube.com/embed/xA142IsjQiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <p class="mt-4 font fs-6" class="youtube">El Rey del Rock n Roll Elvis Presley se vio fuera de su elemento habitual en la interpretación de esta balada romántica de una canción que hace     que cualquiera se sienta en las nubes.</p>
-            <p class="mt-4 font fs-6" >Evidentemente, la canción es una de las canciones de boda más populares hasta la fecha.</p>
-            <p class="mt-4 font fs-6">La canción
-            "Can't Help Falling In Love" se lanzó como una canción para la película 'Blue Hawaii' de Elvis Presley en 1961. 
-            <p>
+            <p class="mt-4 font fs-6" class="youtube">If I can dream ("Si puedo soñar") es una canción popularizada por Elvis Presley, interpretada ante la audiencia al final de programa televisivo de la NBC 1968 Come Back Special. </p>
+             <p> Fue escrita por Walter Earl Brown, notable por su alusión a la frase de Martin Luther King de 1963 "I have a dream".</p>
+             <p> La canción fue grabada por Elvis dos meses después del asesinado de King. </p>
+              
               <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                 Leer mas.
               </a>
             </p>
             <div class="collapse" id="collapseExample">
               <div class="card card-body">
-                <p class="mt-4 font fs-6">La revista Rolling Stone clasificó la canción como la quinta mejor canción de Elvis Presley, quedando detrás de "Suspicious Minds", "If I Can Dream ”, “In The Ghetto” y “Jailhouse Rock”. Rolling Stone también incluyó esta canción clásica en su lista "500 Greatest Songs of All Time" en el #403. </p>
-            <p class="mt-4 font fs-6">Según el mismo sitio web, le tomó a Elvis 29 tomas para culminar esta obra maestra que escuchamos hoy. La canción alcanzó el puesto #1 en las listas de canciones de muchos países de todo el mundo, incluidos Estados Unidos, el Reino Unido, Canadá, Australia, Suecia, Nueva Zelanda, Francia y España.
-            La canción habla sobre los sentimientos del cantante hacia una chica de la que se enamora incontrolablemente.
-            "Can't Help Falling In Love" es también la última canción que Elvis tocó en vivo en 1977 durante un concierto en Indianápolis.</p>
+                <p class="mt-4 font fs-6">Brown fue convocado para escribir una canción que reemplazara el villancico "I'll Be Home for Christmas" para el gran final del programa televisivo.</p>
+                  <p>Luego de que Elvis escuchara el demo se sintió tan conmovido que proclamó que "Nunca más cantaré una canción en la cual no crea. Nunca haré otra película en la que no crea". Y mantuvo esa promesa por el resto de su vida.</p>
+                 <p>La canción fue publicada por la compañía de Presley, Gladys Music, Inc.</p>
+                 <p>Luego de que el coronel Tom Parker escuchara el demo de la canción enviado por Earl Brown, él dijo "Esta no es la clase de canción de Elvis". Elvis estaba allí y se opuso a los argumentos de Parker y entonces alegó "Déjame intentarlo, hombre".</p> 
+                 <p>Earl Brown manifestó que durante la grabación vio lágrimas en las mejillas de los coristas y uno de ellos le dijo a Brown "Elvis jamás cantó con semejante emoción. Pareciera como si él entendiera cada palabra".</p>
+                 
               </div>
             </div>
 
@@ -131,18 +136,18 @@
         </section>
     </main>
     
-        <footer class="bg-success p-2 text-dark bg-opacity-25 container-fluid">
+        <footer class="p-2 text-dark bg-opacity-25 container-fluid">
             <div class="mt-4 mb-4 fa-3x" >
-                <div class="iconofooter d-flex justify-content-evenly mt-3 mb-3">
+                <div class="iconofooter d-flex justify-content-evenly mt-3 mb-3 w-100 fs-3">
                   <a class="bi-iconos bi-facebook" class="facebook" href="https://www.facebook.com/"></a>
                   <a class="bi-iconos bi-twitter" class="twitter"  href="https://twitter.com/home?lang=es"></a>
                   <a class="bi-iconos bi-whatsapp" class="whatsapp"  href="https://web.whatsapp.com/"></a>
                   <a class="bi-iconos bi-envelope" class="envelope"  href="https://mail.google.com/"></a>
                     
                 </div>
-                <div class="d-flex justify-content-center mt-3 mb-3">
+                <div class="d-flex justify-content-center mt-4 mb-4">
                     <p>¿NOS AYUDARIAS A MEJORAR?</p>
-                         <a class="cuestionario" href="./pages/Formulario.html" target="_blank" class="bi-iconos"  class="link">¡Seguinos para darnos tu opinion!</a>
+                         <a class="cuestionario" href="./pages/Formulario.html" target="_blank" class="bi-iconos"  class="link"> ¡Seguinos para darnos tu opinion!</a>
                 
                 </div>
                 <div class="d-flex justify-content-evenly mt-3 mb-3">

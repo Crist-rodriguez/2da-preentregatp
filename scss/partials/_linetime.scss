@@ -3,11 +3,42 @@
 
 .bodyfil{
     height: 200%;
+
+    .filmo{
+
+        border-radius: 5%;
+
+        .parrafofilmo{
+
+            @media (min-width:320px) and (max-width: 768px){
     
+             text-align: left;
+             justify-content: center;    
 
+            }
+        }
 
+        .biofil{
+            border-radius: 15%;
+            width:25%;
+            height:30vh;
+            
+
+            @media (min-width:320px) and (max-width: 768px){
+
+                width:25%;
+                height:21vh;
+                margin-top: 5%;
+    
+               }
+
+        }
+
+    }
+    
     #tiempo{
-        height: 150%;
+        height: 120%;
+
         .lineadetiempo{
             position: relative;
             padding: 30px 0;
