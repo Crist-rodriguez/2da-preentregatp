@@ -12,7 +12,7 @@ body{
 
     a{
         text-decoration: underline;
-        color: var(--bs-link-color);
+        color: black;
     }
 
 
@@ -20,7 +20,7 @@ body{
 
 .mainprincipal{
     background-color: $colormain;
-
+    
     .hero1{
     height: 100vh;
     background: url(../imagen/portada.jpg);

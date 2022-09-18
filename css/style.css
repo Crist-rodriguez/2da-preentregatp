@@ -9,7 +9,7 @@ body {
 }
 body a {
   text-decoration: underline;
-  color: var(--bs-link-color);
+  color: black;
 }
 body .mainprincipal {
   background-color: #e4ded3;
@@ -87,10 +87,10 @@ body .imgbio {
   width: 100%;
 }
 body .titulovida {
-  font-size: 4cm;
+  font-size: 1.5cm;
 }
 body .titulocarrera {
-  font-size: 4cm;
+  font-size: 1.5cm;
 }
 
 .bodyfil {
@@ -254,156 +254,42 @@ body .titulocarrera {
   }
 }
 
-:root {
-  --background: #e2ebf0;
-  --gray: #2e093d;
+.navbar {
+  --bs-navbar-padding-y: 0;
 }
 
-.fondomain {
-  background-color: #c1cfbb;
+.row {
+  margin-right: 0rem;
 }
-.fondomain .reproductortarjetas {
-  padding: 20px;
+
+.musicmain {
+  background-color: #e4ded3;
 }
-.fondomain .reproductortarjetas .titulolist {
-  display: flex;
-  justify-content: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 5%;
-}
-.fondomain .reproductortarjetas .tituloclasicos {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 5%;
-  margin-bottom: 2%;
-  margin-left: 5%;
-}
-.fondomain .reproductortarjetas .contenedor-productos {
-  background-color: rgb(156, 152, 152);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 40px;
-  padding: 20px;
-  overflow-x: scroll;
-  min-height: 50vh;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player {
-  width: 300px;
-  height: 550px;
-  background-color: var(--background);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  box-shadow: 9px 9px 16px rgba(140, 167, 207, 0.6), -9px -9px 16px rgba(248, 242, 242, 0.5);
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__controles {
-  display: flex;
-  width: 95%;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 25px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__controles .player__btn {
-  cursor: pointer;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.6), -6px -6px 6px 0px rgba(255, 255, 255, 0.6), 8px 8px 20px rgba(0, 0, 0, 0.0666666667), 5px 5px 6px 0px rgba(0, 0, 0, 0.0666666667);
-  color: var(--gray);
-  margin-top: 5px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__controles .player__btn:active {
-  box-shadow: inset -8px -8px 20px rgba(255, 255, 255, 0.6), inset -5px -5px 6px rgba(255, 255, 255, 0.6), inset 8px 8px 20px rgba(0, 0, 0, 0.2), inset 5px 5px 6px rgba(0, 0, 0, 0.0666666667);
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__controles .player__btn--small {
-  min-width: 50px;
-  min-height: 50px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__controles .player__btn--medium {
-  min-height: 70px;
-  min-width: 70px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__controles .blue {
-  background-color: #080808;
-  color: #f7f2f8;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__controles .player__title {
-  font-weight: 600;
-  font-size: 0.8em;
-  color: #0a0a0a;
+.musicmain .titulospotify {
+  padding-top: 2%;
+  color: rgb(15, 15, 17);
+  font-size: 1.2cm;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 0px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__album {
-  width: 150px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__album img {
-  width: 100%;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__album .player__img {
-  border-radius: 50%;
-  box-shadow: 2px 2px 7px rgb(163, 177, 198), -2px -2px 7px rgb(163, 177, 198), -8px -8px 50px rgba(255, 255, 255, 0.8), 3px 3px 25px rgba(0, 0, 0, 0.6);
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__artista {
-  font-size: 1.2em;
-  font-weight: 500;
-  opacity: 0.5;
-  margin: 20px 0px 0px 0px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__tema {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  font-weight: 400;
-  font-size: 1em;
-  opacity: 0.5;
-  margin: 0;
-  padding-bottom: 5px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__level {
-  width: 80%;
-  -webkit-appearance: none;
-  outline: none;
-  border: none;
-  padding: 0;
-  margin-top: 40px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__level::-webkit-slider-runnable-track {
-  background-color: #c39df8;
-  height: 6px;
-  border-radius: 3px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .player__level::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  border-radius: 100%;
-  background-color: #060f06;
-  height: 18px;
-  width: 18px;
-  margin-top: -7px;
-}
-.fondomain .reproductortarjetas .contenedor-productos .player .audio-duration {
-  margin-top: -30px;
-  display: flex;
-  width: 78%;
-  font-size: 10px;
   font-weight: 600;
-  color: #a1a1a1;
-  letter-spacing: 1px;
+  text-shadow: 2px 4px rgb(80, 64, 64);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: palevioletred;
+  padding-bottom: 2%;
 }
-.fondomain .reproductortarjetas .contenedor-productos .player .audio-duration .start {
-  flex: 1;
+.musicmain .caja1 {
+  padding: 2%;
 }
-.fondomain .reproductortarjetas .contenedor-productos .player .player__audio {
-  visibility: hidden;
+.musicmain .caja1 .titulospotify2 {
+  padding-top: 2%;
+  padding-left: 2%;
+  color: black;
+  font-size: 1cm;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
 }
-.fondomain .reproductortarjetas .contenedor-productos .player .hide {
-  display: none;
+.musicmain .caja1 .titulospotify3 {
+  padding-bottom: 4%;
 }
 
 .fondoformu {
